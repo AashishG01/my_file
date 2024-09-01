@@ -1,0 +1,528 @@
+/* custom fonts */
+
+@font-face {
+    font-family: 'PlusJakartaSans';
+    src: url('webfonts/PlusJakartaSans/PlusJakartaSans-Regular.woff2') format('woff2'),
+         url('webfonts/PlusJakartaSans/PlusJakartaSans-Regular.woff') format('woff')
+         url('webfonts/PlusJakartaSans/PlusJakartaSans-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'PlusJakartaSans';
+    src: url('webfonts/PlusJakartaSans/PlusJakartaSans-Light.woff2') format('woff2'),
+         url('webfonts/PlusJakartaSans/PlusJakartaSans-Light.woff') format('woff')
+         url('webfonts/PlusJakartaSans/PlusJakartaSans-Light.ttf') format('truetype');
+    font-weight: lighter;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'PlusJakartaSans';
+    src: url('webfonts/PlusJakartaSans/PlusJakartaSans-Medium.woff2') format('woff2'),
+         url('webfonts/PlusJakartaSans/PlusJakartaSans-Medium.woff') format('woff')
+         url('webfonts/PlusJakartaSans/PlusJakartaSans-Medium.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'PlusJakartaSans';
+    src: url('webfonts/PlusJakartaSans/PlusJakartaSans-Bold.woff2') format('woff2'),
+         url('webfonts/PlusJakartaSans/PlusJakartaSans-Bold.woff') format('woff')
+         url('webfonts/PlusJakartaSans/PlusJakartaSans-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'PlusJakartaSans';
+    src: url('webfonts/PlusJakartaSans/PlusJakartaSans-ExtraBold.woff2') format('woff2'),
+         url('webfonts/PlusJakartaSans/PlusJakartaSans-ExtraBold.woff') format('woff')
+         url('webfonts/PlusJakartaSans/PlusJakartaSans-ExtraBold.ttf') format('truetype');
+    font-weight: bolder;
+    font-style: normal;
+}
+
+
+
+
+
+/* start */
+
+
+
+
+html
+{
+    overflow-x: hidden;
+}
+.navbar-nav{
+    /* font-family: Arial; */
+    font-size: 20px;
+}
+
+.navbar-light .navbar-nav .nav-link{
+    color: rgb(200, 200, 200);
+}
+
+.navbar-light .navbar-nav .nav-link:hover{
+    color: white;
+}
+
+.svnit_photo{
+   width:150px;
+   height: auto;
+   margin-left: 10px;
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+
+.v1 {
+    height: 70px;
+    border-left: 1px solid white;
+    position: relative;
+    top : 0;
+    margin-left: 0%;
+}
+.v2 {
+    height: 70px;
+    border-left: 1px solid black;
+    position: relative;
+    top : 0;
+    margin-left: 0%;
+}
+
+.nit_photo{
+    width:80px;
+    height: auto;
+    margin-left: 30px;
+    margin-right: 10px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+body
+{
+    font-family: 'PlusJakartaSans', Helvetica, Arial, sans-serif;
+    overflow-x: hidden;
+}
+
+
+
+
+
+
+.main-div{
+    width: 100%;
+    height: 100vh;
+    background-image: url(images/Team_22-26.jpg);
+    background-size:contain;
+    background-position:center;
+    background-repeat: no-repeat;
+    box-shadow: 0px -10vw 70vw 8vw rgb(0 0 0) inset, 0px 5vw 7vw 1vw rgb(0 0 0) inset;
+}
+
+.innovation-image{
+    display: flex;
+    justify-content: center;
+}
+
+.innovation-image .innovation-title{
+    bottom: 0;
+    position:absolute;
+    text-align: center;
+    color: #fff;
+    text-shadow: 0 0 30px black;
+}
+
+.innovation-image .innovation-title h3{
+    font-weight: bold;
+    letter-spacing: 0.7vw;
+    font-size: 4vw;
+    padding-bottom: 0;
+}
+
+.innovation-image .innovation-title h1{
+    font-weight: bolder;
+    letter-spacing: 0.5vw;
+    font-size: 8vw;
+    padding-bottom: 3vw;
+}
+
+.about-section{
+    display: flex;
+}
+
+.write-up-about{
+    width: 65%;
+    padding: 20px 30px 30px 70px;
+}
+
+ .about-us
+ {
+    text-align: left;
+    font-size: 50px;
+    padding-bottom: 10px;
+ }
+
+ .about-us-content
+ {
+    text-align: justify;
+    font-size: 20px;
+    font-weight: 400;
+ }
+
+.about-drishti-image{
+    width: 35%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.innovation-section{
+    width: 100%;
+    padding: 40px 150px 40px 150px;
+    background-color: #202328;
+    color: #f8fafd;
+    background-image: url(images/robocon.jpg);
+    background-blend-mode: overlay;
+    background-size: cover;
+    background-position: bottom;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    text-shadow: 0px 0px 30px rba(0,0,0,0.5);
+}
+
+.innovation-section h1{
+    text-align: center;
+    font-size: 50px;
+    font-weight: bolder;
+    letter-spacing: 2px;
+    padding: 30px;
+}
+
+.innovation-section p{
+    font-size: 20px;
+    text-align: justify;
+}
+
+
+/* 
+.main-div{
+    width: 100%;
+    height: 100vh;
+    background-image: url(images/t1.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    box-shadow: 0px -170px 180px 50px rgba(0, 0, 0, 0.9) inset, 0px 70px 90px 20px rgba(0, 0, 0, 0.7) inset;
+}
+
+.robocon-image{
+    display: flex;
+    justify-content: center;
+}
+
+.robocon-image .robocon-title{
+    bottom: 0;
+    position: absolute;
+    text-align: center;
+    color: #fff;
+    text-shadow: 0 0 30px black;
+}
+
+.robocon-image .robocon-title h3{
+    font-weight: bold;
+    letter-spacing: 8px;
+    font-size: 40px;
+    padding-bottom: 0;
+}
+
+.robocon-image .robocon-title h1{
+    font-weight: bolder;
+    letter-spacing: 10px;
+    font-size: 140px;
+    padding-bottom: 50px;
+}
+
+.about-section{
+    display: flex;
+}
+
+.write-up-about{
+    width: 65%;
+    padding: 20px 30px 30px 70px;
+}
+
+ .about-us
+ {
+    text-align: left;
+    font-size: 50px;
+    padding-bottom: 10px;
+ }
+
+ .about-us-content
+ {
+    text-align: justify;
+    font-size: 20px;
+    font-weight: 400;
+ }
+
+.about-drishti-image{
+    width: 35%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.robocon-section{
+    width: 100%;
+    padding: 40px 150px 40px 150px;
+    background-color: #202328;
+    color: #f8fafd;
+    background-image: url(images/robocon.jpg);
+    background-blend-mode: overlay;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    text-shadow: 0px 0px 30px rba(0,0,0,0.5);
+}
+
+.robocon-section h1{
+    text-align: center;
+    font-size: 50px;
+    font-weight: bolder;
+    padding: 30px;
+}
+
+.robocon-section p{
+    font-size: 20px;
+    text-align: justify;
+}
+
+.robocon-status{
+    display: flex;
+    width: 100%;
+    margin-top: 30px;
+}
+
+
+} */
+
+.robocon-status{
+    display: flex;
+    width: 100%;
+    margin-top: 30px;
+}
+
+.robocon-year{
+    width: 25%;
+    text-align: center;
+    padding-top: 80px;
+}
+
+.robocon-year h1{
+    font-weight: bolder;
+    font-size: 70px;
+}
+
+.robocon-year h3{
+    font-weight: bolder;
+    font-size: 30px;
+}
+
+.robocon-year-info{
+    width: 75%;
+}
+
+.year-info{
+    padding: 30px 100px 30px 60px;
+    font-size: 20px;
+    text-align: justify;
+}
+
+.year-images{
+    display: flex;
+}
+
+.year-images img{
+    width: 45%;
+    padding: 0px 0px 35px 40px;}
+
+
+
+
+
+
+
+
+@media (max-width:640px){
+    .v1 {
+        height: 50px;
+    }
+    .v2 {
+        height: 50px;
+    }
+
+    .nit_photo{
+        width:50px;
+        height: auto;
+        margin-left: 7px;
+        margin-right: 3px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+
+    .main-div{
+        background-image: url(images/Team_22-26.jpg);
+        height: 130vw;
+        /* background-position: bottom;
+        box-shadow: 0px 1vw 70vw 1vw rgb(0 0 0) inset, 0px 1vw 5vw 1vw rgb(0 0 0) inset; */
+    }
+    .innovation-image .innovation-title h3{
+        font-size: 7vw;
+        padding-bottom: 0;
+    }
+
+    .innovation-image .innovation-title h1{
+        font-size: 12vw;
+        padding-top: 0;
+    }
+
+    .about-section{
+        display: grid;
+    }
+
+    .write-up-about{
+        width: 100%;
+        padding: 0px 20px 0px 20px;
+    }
+
+     .about-us
+     {
+        text-align: left;
+        font-size: 25px;
+        padding-bottom: 10px;
+     }
+
+     .about-us-content
+     {
+        text-align: justify;
+        font-size: 14px;
+        font-weight: 400;
+     }
+
+    .about-drishti-image{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .about-drishti-image img{
+        width: 80%;
+        height: auto;
+    }
+
+    .innovation-section{
+        width: 100%;
+        padding: 20px 20px 20px 20px;
+        background-color: #202328;
+        color: #f8fafd;
+        background-image: url(images/robocon.jpg);
+        background-blend-mode: overlay;
+        background-size: cover;
+        background-position: top;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        text-shadow: 0px 0px 30px rba(0,0,0,0.5);
+    }
+
+    .innovation-section h1{
+        text-align: center;
+        font-size: 50px;
+        font-weight: bolder;
+        letter-spacing: 2px;
+        padding: 30px;
+    }
+    .svnit_photo {
+        margin-left: 0%;
+        /* height: 75px; */
+        width: 130px;
+        height: auto;
+    }
+    .innovation-section p{
+        font-size: 17px;
+        text-align: justify;
+    }
+
+    .robocon-status{
+        display: grid;
+        width: 100%;
+        margin-top: 30px;
+    }
+
+    .robocon-year{
+        width: 100%;
+        text-align: center;
+        padding-top: 0px;
+    }
+
+    .robocon-year h1{
+        font-weight: bolder;
+        font-size: 60px;
+    }
+
+    .robocon-year h3{
+        font-weight: bolder;
+        font-size: 25px;
+    }
+
+    .robocon-year-info{
+        width: 100%;
+    }
+
+    .year-info{
+        padding: 15px 30px;
+        font-size: 13px;
+        text-align: justify;
+    }
+
+    .year-images{
+        display: grid;
+    }
+
+    .year-images img{
+        width: 100%;
+        padding: 0px 15% 35px 15%;
+    }
+
+}
+
+@media(max-width:450px)
+{
+    .dob
+    {
+        padding-right: 0px;
+        padding-left:0px;
+    }
+    /* h1{
+        text-align: center;
+        font-size: 50px;
+        font-weight: bolder;
+        letter-spacing: 2px;
+        padding: 30px;
+    } */
+    .main-div{
+        background-position: bottom;
+        box-shadow: 0px 1vw 70vw 1vw rgb(0 0 0) inset, 0px 1vw 5vw 1vw rgb(0 0 0) inset; 
+    }
+    .innovation-image .innovation-title{
+        position: relative;
+        top: 10px;
+    }
+}
